@@ -27,13 +27,13 @@ public class OrderWithMonogram extends GenericMethods{
 		TumiLibs.closeSignUpForUS();
 		input(home.getSearchProduct(), testData.get("SKUID"), "FailedOrder");
 		keyEnter(home.getSearchProduct());
-		try {
+		/*try {
 			if (getText(home.getNoProducts()).contains("SORRY")) {
 				Assert.fail("Sorry, no search results");
 			}
 		} catch (Exception e) {
 
-		}
+		}*/
 		/*final String pdpURL = GlobalConstants.url+"/p/"+testData.get("SKUID");
 		driver.get(pdpURL);*/
 		
@@ -92,8 +92,6 @@ public class OrderWithMonogram extends GenericMethods{
 	
 		
 		
-		
-		
-		
+
 	}
 }
