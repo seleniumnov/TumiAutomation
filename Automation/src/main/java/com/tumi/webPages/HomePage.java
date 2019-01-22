@@ -7,8 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
-
 import com.tumi.reports.Reports;
 import com.tumi.utilities.GenericMethods;
 
@@ -200,7 +198,6 @@ public class HomePage extends GenericMethods {
 
 		return submit;
 	}
-<<<<<<< HEAD
 	
 	@FindBy(how=How.XPATH,using="(//div[@class='dEOOab RxsGPe'])[1]")
 	private WebElement emailBlankError;
@@ -240,10 +237,6 @@ public class HomePage extends GenericMethods {
 	}
 	
 	@FindBy(how=How.XPATH,using="(//div[@class='error-message'])[1]")
-=======
-
-	@FindBy(how = How.XPATH, using = "(//div[@class='error-message'])[1]")
->>>>>>> 78637bf3eb91abd36f1bb48accbec333a7447e1d
 	private WebElement invalidCredentials;
 
 	public WebElement getInvalidCredentialsError() {
