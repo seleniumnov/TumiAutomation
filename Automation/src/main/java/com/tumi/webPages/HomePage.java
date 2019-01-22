@@ -200,7 +200,7 @@ public class HomePage extends GenericMethods {
 
 		return submit;
 	}
-<<<<<<< HEAD
+
 	
 	@FindBy(how=How.XPATH,using="(//div[@class='dEOOab RxsGPe'])[1]")
 	private WebElement emailBlankError;
